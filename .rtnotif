@@ -1,0 +1,6 @@
+
+
+#!/bin/bash
+notify-send -u low "$1" "download complete"
+#mv "/home/prash/torrents/${1}" "/home/prash/torrents/finished/${1}"
+#rm -rf "/home/prash/torrents/${1}"

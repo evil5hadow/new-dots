@@ -1,0 +1,41 @@
+sw_volume: 60
+audio_device_state:1:Pulseaudio
+audio_device_state:1:my_fifo
+state: play
+current: 9
+time: 120.372000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Brockhampton/Albums/2017 - Brockhampton - Saturation/01. Heat.mp3
+1:Brockhampton/Albums/2017 - Brockhampton - Saturation/02. Gold.mp3
+2:Brockhampton/Albums/2017 - Brockhampton - Saturation/03. Star.mp3
+3:Brockhampton/Albums/2017 - Brockhampton - Saturation/04. Boys.mp3
+4:Brockhampton/Albums/2017 - Brockhampton - Saturation/07. Fake.mp3
+5:Brockhampton/Albums/2017 - Brockhampton - Saturation/08. Bank.mp3
+6:Brockhampton/Albums/2017 - Brockhampton - Saturation/10. Trip.mp3
+7:Brockhampton/Albums/2017 - Brockhampton - Saturation/11. Swim.mp3
+8:Brockhampton/Albums/2017 - Brockhampton - Saturation/12. Bump.mp3
+9:Brockhampton/Albums/2017 - Brockhampton - Saturation/13. Cash.mp3
+10:Brockhampton/Albums/2017 - Brockhampton - Saturation/15. Milk.mp3
+11:Brockhampton/Albums/2017 - Brockhampton - Saturation/16. Face.mp3
+12:Brockhampton/Albums/2017 - Brockhampton - Saturation/17. Waste.mp3
+13:2 Chainz - Pretty Girls Like Trap Music (2017) Mp3.VBR.[WR Music]/2 Chainz - Pretty Girls Like Trap Music [Hunter]/10. Sleep When U Die.mp3
+14:2 Chainz - Pretty Girls Like Trap Music (2017) Mp3.VBR.[WR Music]/2 Chainz - Pretty Girls Like Trap Music [Hunter]/11. Trap Check.mp3
+15:The Game - The  Documentary 2 (2CD)/CD2/18. El Chapo (Bonus).mp3
+16:SremmLife/01 Lit Like Bic.mp3
+17:SremmLife/08 Throw Sum Mo (feat. Nicki Minaj & Young Thug).mp3
+18:Kanye West - Graduation (2007)/12 Homecoming.mp3
+19:Chief Keef - Thot Breaker (2017) Mp3.320kbps.[Hunter]/Chief Keef - Thot Breaker (2017)/01 - Alone (Intro).mp3
+20:Chief Keef - Thot Breaker (2017) Mp3.320kbps.[Hunter]/Chief Keef - Thot Breaker (2017)/02 - Can You Be My Friend.mp3
+21:Chief Keef - Thot Breaker (2017) Mp3.320kbps.[Hunter]/Chief Keef - Thot Breaker (2017)/06 - Couple Of Coats.mp3
+22:Chief Keef - Thot Breaker (2017) Mp3.320kbps.[Hunter]/Chief Keef - Thot Breaker (2017)/12 - Slow Dance (feat. Young Chop).mp3
+23:Chief Keef - Thot Breaker (2017) Mp3.320kbps.[Hunter]/Chief Keef - Thot Breaker (2017)/13 - Going Home.mp3
+24:2 Chainz - Pretty Girls Like Trap Music (2017) Mp3.VBR.[WR Music]/2 Chainz - Pretty Girls Like Trap Music [Hunter]/01. Saturday Night.mp3
+25:Kanye West - 808's & Heartbreak/01 Kanye West - Say You Will.mp3
+playlist_end

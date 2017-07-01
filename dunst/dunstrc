@@ -150,18 +150,18 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
     background = "#141021"
-    foreground = "#c4b7c5"
-    timeout = 60
+    foreground = "#ffeefc"
+    timeout = 0
 
 [urgency_normal]
     background = "#312842"
     foreground = "#ffeefc"
-    timeout = 60
+    timeout = 0
 
 [urgency_critical]
     background = "#9568a1"
     foreground = "#ffeefc"
-    timeout = 60
+    timeout = 0
 
 
 # Every section that isn't one of the above is interpreted as a rules

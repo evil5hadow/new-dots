@@ -213,6 +213,8 @@ bindsym $mod+Shift+s sticky toggle
 #bindsym $mod+Shift+Return exec termite -r "float"
 bindsym --release $mod+Shift+v exec --no-startup-id "bash /home/prash/t.sh"
 
+focus_follows_mouse no
+
 exec xrandr --output DVI-0 --mode 1920x1080 --rate 144
 exec polybar main_bar
 exec feh --bg-scale ~/wallpapers/c.jpg

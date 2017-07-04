@@ -1,6 +1,5 @@
 #! /bin/bash
-IFS=$'\t' read album artist title \
-	<<< "$(mpc --format="%album%\t%artist%\t%title%")"
+IFS=$'\t' read artist title \
+	<<< "$(mpc --format="%artist%\t%title%")"
 
-notify-send --urgency=low --app-name=ncmpcpp \
---icon=audio-x-generic "$album" "$artist\n$title"
+./.dunstify --urgency=low -a "ncmpcpp" -r 123 "$artist" "$title"

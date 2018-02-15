@@ -33,7 +33,7 @@ height = 30
 background = ${colors.my_background}
 foreground =  ${colors.my_foreground}
 
-font-0 = Monaco:pixelsize=12
+font-0 = DejaVu Sans Mono:pixelsize=12
 font-1 = Icons:pixelsize=12
 
 module-margin = 2
@@ -60,11 +60,16 @@ format-underline = ${colors.my_color0}
 
 [module/mpd]
 type = internal/mpd
-format-online = %{A1:mpc toggle:}%{A3:mpc next:}%{A2:mpc prev:}%{A4:mpc volume +2:}%{A5: mpc volume -2:}<label-song>%{A}%{A}%{A}%{A}%{A}
+format-online = %{A1:mpc -h 127.0.0.1 toggle:}%{A3:mpc -h 127.0.0.1 next:}%{A2:mpc -h 127.0.0.1 prev:}%{A4:mpc -h 127.0.0.1 volume +2:}%{A5: mpc -h 127.0.0.1 volume -2:}<label-song>%{A}%{A}%{A}%{A}%{A}
 label-song-maxlen = 35
 
 [module/i3]
 type = internal/i3
+ws-icon-0 = "1;"
+ws-icon-1 = "2;"
+ws-icon-2 = "3;"
+ws-icon-default = ""
+fuzzy-match = true
 
 label-unfocused-background = ${colors.my_background}
 label-unfocused-foreground = ${colors.my_foreground}
@@ -74,24 +79,25 @@ label-mode = %mode%
 label-mode-padding = 2
 label-mode-background = ${colors.my_color0}
 
-label-focused = %index%
+label-focused = %icon%
 label-focused-foreground = ${colors.my_foreground}
 label-focused-background = ${colors.my_background}
 label-focused-underline = ${colors.my_color0}
 label-focused-padding = 2
 
-label-unfocused = %index%
+label-unfocused = %icon%
 label-unfocused-padding = 2
 
-label-visible = %index%
+label-visible = %icon%
 label-visible-underline = ${colors.my_foreground}
 label-visible-padding = 2
 
-label-urgent = %index%
+label-urgent = %icon%
 label-urgent-foreground = ${colors.my_foreground}
 label-urgent-background = ${colors.my_background}
 label-urgent-underline = ${colors.my_color8}
 label-urgent-padding = 2
+
 
 [module/date]
 type = internal/date

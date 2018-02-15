@@ -1,5 +1,5 @@
 [global]
-    font = Monaco 11
+    font = DejaVu Sans Mono 12
 
     # allow a small subset of html markup:
     # <b>bold</b>
@@ -39,7 +39,7 @@
 
     # show age of message if message is older than show_age_threshold seconds.
     # set to -1 to disable
-    show_age_threshold = 60
+    show_age_threshold = -1
 
     # split notifications into multiple lines if they don't fit into geometry
     word_wrap = yes
@@ -182,6 +182,10 @@
 # NOTE: if you don't want a notification to be displayed, set the format to ""
 # NOTE: It might be helpful to run dunst -print in a terminal in order to find
 # fitting options for rules.
+
+#[play_sound]
+#	summary = "rt*"
+#	script = /home/prash/.config/dunst/alert.sh
 
 #[espeak]
     summary = "*"

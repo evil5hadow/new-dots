@@ -1,6 +1,6 @@
-*.font: xft:Monaco :pixelsize=14
+*.font: xft: DejaVu Sans Mono
 
-Xft.dpi:                        96
+xft.dpi:                        96
 Xft.antialias:                  1
 Xft.autohint:                   1
 Xft.hinting:                    1

@@ -1,5 +1,5 @@
 #! /bin/bash
 IFS=$'\t' read artist title \
-	<<< "$(mpc --format="%artist%\t%title%")"
+	<<< "$(mpc -h 127.0.0.1 --format="%artist%\t%title%")"
 
-./.dunstify --urgency=low -a "ncmpcpp" -r 123 "$artist" "$title"
+notify-desktop --urgency=low -a "ncmpcpp" "$artist" "$title" -r 123 >> /dev/null

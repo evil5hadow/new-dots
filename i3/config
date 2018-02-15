@@ -172,6 +172,7 @@ for_window [window_role="float"] floating enable
 for_window [class="mpv"] floating enable
 for_window [instance="feh"] floating enable
 for_window [instance="mupdf"] floating enable
+for_window [class="calibre"] floating enable
 new_window pixel 2
 new_float pixel 2
 
@@ -182,10 +183,10 @@ gaps outer $default_gaps_outer
 #smart_gaps on
 
 client.focused          #312842 #c16772 #ffeefc #c16772
-client.focused_inactive #312842 #312842 #ffeefc #141021
-client.unfocused        #312842 #312842 #ffeefc #141021
-client.urgent           #312842 #312842 #ffeefc #141021
-client.placeholder      #312842 #312842 #ffeefc #141021
+client.focused_inactive #312842 #312842 #ffeefc #312842
+client.unfocused        #312842 #312842 #ffeefc #312842
+client.urgent           #312842 #312842 #ffeefc #312842
+client.placeholder      #312842 #312842 #ffeefc #312842
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -212,10 +213,11 @@ client.placeholder      #312842 #312842 #ffeefc #141021
 bindsym $mod+Shift+s sticky toggle
 #bindsym $mod+Shift+Return exec termite -r "float"
 bindsym --release $mod+Shift+v exec --no-startup-id "bash /home/prash/t.sh"
-
+bindsym $mod+Shift+Control+s exec "bash /home/prash/.screen.sh"
 focus_follows_mouse no
 
 exec xrandr --output DVI-0 --mode 1920x1080 --rate 144
 exec polybar main_bar
 exec feh --bg-scale ~/wallpapers/c.jpg
 exec compton --config /home/prash/.compton.conf
+exec mpd

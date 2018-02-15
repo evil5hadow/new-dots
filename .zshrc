@@ -58,6 +58,7 @@ source $ZSH/oh-my-zsh.sh
 
 if [[ -n ${LAUNCHER} ]]; then
     bindkey -s "^M" " & \n"
+    bindkey -s "^[" "; exit \n"
     return
 fi
 

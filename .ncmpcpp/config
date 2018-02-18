@@ -32,7 +32,7 @@ user_interface = "alternative" (classic/alternative)
 header_visibility = "no"
 titles_visibility = "no"
 cyclic_scrolling = "yes"
-mouse_support = "no"
+mouse_support = "yes"
 external_editor = "vim"
 use_console_editor = "yes" (set to yes, if your editor is console app)
 

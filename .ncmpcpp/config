@@ -1,10 +1,10 @@
 mpd_host = "127.0.0.1"
 mpd_port = "6600"
-mpd_music_dir = "/home/prash/.mus"
+mpd_music_dir = "/home/prashant/music"
 
-
+media_library_primary_tag = album_artist
 # Visualizer
-visualizer_fifo_path = "/home/prash/.mpd.fifo"
+visualizer_fifo_path = "/home/prashant/.mpd.fifo"
 visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "10"
 visualizer_type = "wave" (spectrum/wave)
@@ -59,6 +59,6 @@ statusbar_visibility = no
 
 
 lyrics_fetchers = genius, lyricwiki, azlyrics, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
-execute_on_song_change = /home/prash/.mpdnotif
+execute_on_song_change = /home/prashant/.mpdnotif
 fetch_lyrics_for_current_song_in_background = yes
 follow_now_playing_lyrics = yes
